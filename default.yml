@@ -19,9 +19,13 @@ org_settings:
   server_settings:
     server_url: $FLEET_URL
   org_info:
-    org_name: Fleet
+    org_name: The Name of My Awesome Org
   secrets:
     - secret: "$FLEET_GLOBAL_ENROLL_SECRET"
+  webhook_settings: 
+    activites_webhook:
+      enable_activities_webhook: true
+      destination_url: https://example.com/webhook_handler
   features:
     enable_host_users: true
     enable_software_inventory: true
