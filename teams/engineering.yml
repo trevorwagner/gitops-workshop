@@ -17,6 +17,9 @@ queries:
 agent_options:
   path: ../lib/agent-options.yml
 controls:
+  macos_settings:
+    - path: ./lib/macos/configuration-profiles/disable-bluetooth-file-sharing.mobileconfig
+    - path: ./lib/macos/configuration-profiles/passcode-settings-ddm.json
   scripts:
     - path: ../lib/macos/scripts/remove-zoom-artifacts.script.sh
     - path: ../lib/macos/scripts/set-timezone.script.sh
