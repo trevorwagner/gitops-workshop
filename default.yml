@@ -23,7 +23,7 @@ org_settings:
   secrets:
     - secret: "$FLEET_GLOBAL_ENROLL_SECRET"
   webhook_settings: 
-    activites_webhook:
+    activities_webhook:
       enable_activities_webhook: true
       destination_url: https://example.com/webhook_handler
   features:
