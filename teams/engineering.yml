@@ -35,4 +35,10 @@ team_settings:
   features:
     enable_host_users: true
     enable_software_inventory: true
+  webhook_settings:
+    failing_policies_webhook: true
+    destination_url: https://example.org/webhook_handler
+    host_batch_size: 0
+    policy_ids:
+      - 118
 software:
